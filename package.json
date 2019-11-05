@@ -1,21 +1,21 @@
 {
-  "name": "testmodules",
+  "name": "chang_k_favethings",
   "version": "1.0.0",
-  "description": "using classes with node and express",
+  "description": "My favourite animation styles.",
   "main": "app.js",
   "scripts": {
     "start": "nodemon app"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Trevor-FanshaweC/DayOne_Fall19.git"
+    "url": "git+https://github.com/kchang00/chang_k_favouriteThings.git"
   },
   "keywords": [
-    "classes",
+    "animation",
     "node",
     "javascript"
   ],
-  "author": "TVR",
+  "author": "Kayla Chang",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
