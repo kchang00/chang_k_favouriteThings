@@ -1,0 +1,66 @@
+// main breakpoints
+$desktop-size: 1024px;
+$tablet-size: 670px;
+$tablet-margin: 30px;
+$mobile-margin: 20px;
+$desktop-margin: 50px;
+
+// colours
+$pink: #000 ;
+$light-blue: #35c0d0;
+$grey:#555;
+
+@mixin h2-class {
+    font-size: 4em;
+    color: $pink;
+    font-family: ‘Open Sans’, sans-serif;
+    line-height: 1em;
+    text-transform: uppercase;
+}
+
+@mixin h3-class {
+    font-size: 3em;
+    color: $pink;
+    font-family: ‘Open Sans’, sans-serif;
+    line-height: 1em;
+    text-transform: uppercase;
+}
+
+@mixin h4-class {
+    font-size: 1.2em;
+    color: $pink;
+    font-family: ‘Open Sans’, sans-serif;
+    line-height: 3em;
+    text-transform: uppercase;
+}
+
+@mixin h5-class {
+    font-size: 1.2em;
+    color: $pink;
+    font-family: ‘Open Sans’, sans-serif;
+    line-height: 2em;
+}
+
+@mixin p-class {
+    font-size: 1em;
+    color: $grey;
+    font-family: 'Lato', sans-serif;
+    line-height: 1.5em;
+    text-align: justify;
+}
+
+@mixin btn-class {
+    flex: 1;
+    padding: 20px;
+    background: $pink;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+    transition: all .3s ease;
+    &:focus {
+        background: $light-blue;
+    }
+    &:hover {
+        background: $light-blue;
+    }
+}
