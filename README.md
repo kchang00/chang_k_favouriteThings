@@ -24,6 +24,7 @@ You need these to run the program:
 * NPM
 * Node JS
 * Express
+* Handlebars
 * Gulp Dependencies
 
 To install the packages: `npm install`
