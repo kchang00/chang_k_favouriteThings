@@ -2,7 +2,7 @@ const express = require('express');
 const path = require('path');
 const hbs = require('hbs');
 
-// set the port
+// set the port - where the application gets served from
 const port = process.env.PORT || 3000;
 
 const app = express();
@@ -12,6 +12,21 @@ app.set('view engine', 'hbs');
 app.set('views', path.join(__dirname, 'views'));
 
 app.use('/', require('./routes/index'));
+
+app.use((req, res, next) => {
+    // this is an object
+    var err = new Error('Ah! You Found Me.');
+    err.status = 404;
+    // notice how this does NOT end in a semicolon
+    err.customMessage = "But I couldn't find the page you were looking for. Sorry about that!"
+
+    // pass the error onto the next function
+    next(err);
+})
+
+app.use((err, req, res, next) => {
+    res.render('error', { data: err, layout: 'error_page' })
+})
 
 // ATTEMPTS AT 404 HANDLING
 

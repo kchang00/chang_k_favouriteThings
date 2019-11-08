@@ -32,7 +32,7 @@ router.get('/', (req, res) => {
 
 //THIS IS THE OTHER PAGES
 // can name id anything ('/:nameme') = parameter, what the user passes through
-router.get('/:id', (req, res) => {
+router.get('/work/:id', (req, res) => {
     console.log('at the user route');
     console.log(req.params.id); // look at the request, get the parameter, fetch whatever the id is
 

@@ -6,45 +6,48 @@ $mobile-margin: 20px;
 $desktop-margin: 50px;
 
 // colours
-$pink: #000 ;
+$pink: #5C8B5D;
 $light-blue: #35c0d0;
 $grey:#555;
 
 @mixin h2-class {
-    font-size: 4em;
+    font-size: 3em;
     color: $pink;
-    font-family: ‘Open Sans’, sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
     line-height: 1em;
     text-transform: uppercase;
+    font-weight: 600;
 }
 
 @mixin h3-class {
-    font-size: 3em;
+    font-size: 2em;
     color: $pink;
-    font-family: ‘Open Sans’, sans-serif;
-    line-height: 1em;
+    font-family: 'Nunito Sans', sans-serif;
+    line-height: 1.2em;
     text-transform: uppercase;
+    font-weight: 600;
 }
 
 @mixin h4-class {
-    font-size: 1.2em;
+    font-size: 1em;
     color: $pink;
-    font-family: ‘Open Sans’, sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
     line-height: 3em;
     text-transform: uppercase;
+    font-weight: 600;
 }
 
 @mixin h5-class {
     font-size: 1.2em;
     color: $pink;
-    font-family: ‘Open Sans’, sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
     line-height: 2em;
 }
 
 @mixin p-class {
     font-size: 1em;
     color: $grey;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Raleway', sans-serif;
     line-height: 1.5em;
     text-align: justify;
 }

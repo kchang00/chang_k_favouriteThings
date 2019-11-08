@@ -3,7 +3,7 @@
     left: 0;
     right: 0;
     z-index: 3;
-    background: rgba(53, 192, 208, 0.70);
+    background: #75D89D;
 }
 
 .main-nav-con {
@@ -33,7 +33,7 @@
     left: 0;
     bottom: 0;
     position: fixed;
-    background: rgba(236, 233, 198, 1);
+    background: #75D89D;
     padding: $mobile-margin !important;
     display: flex;
     justify-content: center;
@@ -46,7 +46,7 @@
 
 .hamburger {
 	font-size: 40px;
-	color: white;
+	color: #5C8B5D;
     transition: all .2s ease-in-out;
     align-self: flex-end;
 }
@@ -76,7 +76,7 @@
     a {
         font-size: 2em;
         color: white;
-        font-family: ‘Open Sans’, sans-serif;
+        font-family: ‘Nunito Sans’, sans-serif;
         line-height: 2em;
         // remember, mobile users need to see the effect immediately on click
         transition: all ease-out;
@@ -144,13 +144,14 @@
     .main-nav {
         display: flex;
         flex: 1;
-        justify-content: center;
+        justify-content: flex-end;
         align-items: center;
         ul {
             display: flex;
             flex-direction: row;
             flex: 1;
             justify-content: space-between;
+            max-width: 400px;
         }
         a {
             @include h5-class;

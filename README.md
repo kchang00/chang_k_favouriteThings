@@ -1,6 +1,6 @@
 # My Favourite Things
 
-![Portfolio Logo](/public/images/botw.jpg)
+![Portfolio Logo](/public/images/monster.gif)
 
 ## Styles of Animation
 
