@@ -16,6 +16,7 @@ $grey:#555;
     font-family: 'Nunito Sans', sans-serif;
     line-height: 1em;
     text-transform: uppercase;
+    font-weight: 600;
 }
 
 @mixin h3-class {
@@ -24,6 +25,7 @@ $grey:#555;
     font-family: 'Nunito Sans', sans-serif;
     line-height: 1.2em;
     text-transform: uppercase;
+    font-weight: 600;
 }
 
 @mixin h4-class {
@@ -32,6 +34,7 @@ $grey:#555;
     font-family: 'Nunito Sans', sans-serif;
     line-height: 3em;
     text-transform: uppercase;
+    font-weight: 600;
 }
 
 @mixin h5-class {

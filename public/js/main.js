@@ -64,7 +64,7 @@ const myVM = (() => {
         event.preventDefault();
         // debugger;
         // href= 1, 2, 3 depending on which anchor tag you click
-        let url = `/${this.getAttribute('href')}`;
+        let url = `/work/${this.getAttribute('href')}`;
         let currentImg = this.previousElementSibling.getAttribute('src');
         // let currentTitle = this.previousElementSibling.getAttribute('src');
 
