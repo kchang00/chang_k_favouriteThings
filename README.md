@@ -1,6 +1,6 @@
 # My Favourite Things
 
-<img src="public/images/monster.gif" width="200"> Can you find me?
+<img src="public/images/monster.gif" width="200">
 
 ## Styles of Animation
 
